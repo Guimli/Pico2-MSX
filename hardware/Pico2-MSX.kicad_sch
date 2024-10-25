@@ -19418,7 +19418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "Additional:L_pol_2016"
 			(at 144.78 107.95 0)
 			(effects
 				(font
@@ -21664,7 +21664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Additional:C_0603_1608Metric_small"
 			(at 133.0452 111.76 0)
 			(effects
 				(font
@@ -23590,7 +23590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Additional:C_0603_1608Metric_small"
 			(at 120.3452 111.76 0)
 			(effects
 				(font
