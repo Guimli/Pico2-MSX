@@ -16962,7 +16962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5362630"
+		(property "LCSC" "C2988369"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -22376,6 +22376,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24980"
 			(at 138.43 179.07 0)
 			(effects
 				(font
