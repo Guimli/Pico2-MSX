@@ -7704,6 +7704,12 @@
 		(uuid "c1d16bbf-5ccc-4155-b5e9-c4767b38bd6b")
 	)
 	(junction
+		(at 297.18 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83c52d9-3acb-47c5-bf4a-1dd6a583507d")
+	)
+	(junction
 		(at 279.4 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7750,12 +7756,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed93edc5-0bb9-44cc-9b36-94377f8dbdf0")
-	)
-	(junction
-		(at 297.18 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed95a423-74b5-4930-8a4b-1e20065f8a58")
 	)
 	(junction
 		(at 144.78 35.56)
@@ -9709,6 +9709,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 165.1) (xy 297.18 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e7aca5-e255-416f-ab98-600d17447720")
+	)
+	(wire
+		(pts
 			(xy 199.39 81.28) (xy 201.93 81.28)
 		)
 		(stroke
@@ -10209,7 +10219,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 163.83) (xy 297.18 163.83)
+			(xy 294.64 165.1) (xy 297.18 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10289,7 +10299,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 166.37) (xy 294.64 163.83)
+			(xy 294.64 166.37) (xy 294.64 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10516,16 +10526,6 @@
 			(type default)
 		)
 		(uuid "7a51e70a-be9f-4f8c-9719-de1e0d3f0ede")
-	)
-	(wire
-		(pts
-			(xy 297.18 162.56) (xy 297.18 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5e2a1c-0795-4c82-b6f1-8edb72eed0ee")
 	)
 	(wire
 		(pts
@@ -11399,7 +11399,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 153.67) (xy 297.18 154.94)
+			(xy 297.18 154.94) (xy 297.18 156.21)
 		)
 		(stroke
 			(width 0)
@@ -12719,7 +12719,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 163.83) (xy 297.18 166.37)
+			(xy 297.18 163.83) (xy 297.18 165.1)
 		)
 		(stroke
 			(width 0)
@@ -15649,7 +15649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 254.9652 69.85 0)
 			(effects
 				(font
@@ -15676,7 +15676,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -15736,7 +15736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 267.6652 69.85 0)
 			(effects
 				(font
@@ -15763,7 +15763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -15823,7 +15823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 280.3652 69.85 0)
 			(effects
 				(font
@@ -15850,7 +15850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -15910,7 +15910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 293.0652 69.85 0)
 			(effects
 				(font
@@ -15937,7 +15937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 292.1 66.04 0)
 			(effects
 				(font
@@ -15997,7 +15997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 305.7652 69.85 0)
 			(effects
 				(font
@@ -16024,7 +16024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 304.8 66.04 0)
 			(effects
 				(font
@@ -16084,7 +16084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 318.4652 69.85 0)
 			(effects
 				(font
@@ -16111,7 +16111,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 317.5 66.04 0)
 			(effects
 				(font
@@ -17219,7 +17219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 164.7952 69.85 0)
 			(effects
 				(font
@@ -17246,7 +17246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 163.83 66.04 0)
 			(effects
 				(font
@@ -17669,7 +17669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 242.2652 69.85 0)
 			(effects
 				(font
@@ -17696,7 +17696,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 241.3 66.04 0)
 			(effects
 				(font
@@ -17821,7 +17821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 331.1652 69.85 0)
 			(effects
 				(font
@@ -17848,7 +17848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 330.2 66.04 0)
 			(effects
 				(font
@@ -17900,7 +17900,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 164.211 158.1658 0)
+			(at 163.83 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18615,7 +18615,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 297.18 153.67 0)
+		(at 297.18 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18623,7 +18623,7 @@
 		(dnp no)
 		(uuid "3f827126-931a-43e9-b0f1-c193dc7a6823")
 		(property "Reference" "#PWR033"
-			(at 297.18 157.48 0)
+			(at 297.18 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18632,7 +18632,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 297.18 149.86 0)
+			(at 297.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18640,7 +18640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 153.67 0)
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18649,7 +18649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 153.67 0)
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18658,7 +18658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 297.18 153.67 0)
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22118,7 +22118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 139.3952 69.85 0)
 			(effects
 				(font
@@ -22145,7 +22145,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 138.43 66.04 0)
 			(effects
 				(font
@@ -22593,7 +22593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 152.0952 69.85 0)
 			(effects
 				(font
@@ -22620,7 +22620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -22680,7 +22680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Additional:C_0402_1005Metric_thin"
 			(at 229.5652 69.85 0)
 			(effects
 				(font
@@ -22707,7 +22707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307380"
+		(property "LCSC" "C307331"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -23902,7 +23902,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 297.18 158.75 270)
+		(at 297.18 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23911,7 +23911,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc01499f-943c-48b4-adee-dc8807709d30")
 		(property "Reference" "D1"
-			(at 299.72 157.1624 90)
+			(at 299.72 158.4324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23920,7 +23920,7 @@
 			)
 		)
 		(property "Value" "B5819W SL"
-			(at 299.72 159.7024 90)
+			(at 299.72 160.9724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23929,7 +23929,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 297.18 158.75 0)
+			(at 297.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23938,7 +23938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 297.18 158.75 0)
+			(at 297.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23947,7 +23947,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 297.18 158.75 0)
+			(at 297.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23956,7 +23956,7 @@
 			)
 		)
 		(property "LCSC" "C8598"
-			(at 297.18 158.75 0)
+			(at 297.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23965,7 +23965,7 @@
 			)
 		)
 		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 297.18 158.75 90)
+			(at 297.18 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
